@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml:3:11-52
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+		ADDED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+		ADDED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
+		INJECTED from /Users/micobe00/Documents/GitHub/buro.mobile/node_modules/react-native-perspective-image-cropper/android/src/main/AndroidManifest.xml
