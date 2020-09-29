@@ -108,12 +108,16 @@ class CustomCrop extends Component {
       onPanResponderMove: (evt, gestureState) => {
         // if(topLeftx < topRightx)
         console.log(
-          corner.x._value,
-          this.state.topRight.x._value,
-          gestureState
+          gestureState.moveX,
+          gestureState.moveY,
+          this.state.viewHeight,
+          Dimensions.get("window").width
         );
 
-        // if (gestureState.moveX + 100 <= this.state.topRight.x._value)
+        // if (gestureState.moveX + 5 < Dimensions.get('window').width &&
+        //   gestureState.moveX > 5 &&
+        //   gestureState.moveY < this.state.viewHeight + 80
+        // && gestureState.moveY > 5)
         Animated.event(
           [
             null,
@@ -232,25 +236,61 @@ class CustomCrop extends Component {
             {...this.panResponderTopLeft.panHandlers}
             style={[this.state.topLeft.getLayout(), s(this.props).handler]}
           >
-            <View style={[s(this.props).handlerI]} />
+            <View
+              style={{
+                height: 60,
+                width: 60,
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <View style={[s(this.props).handlerI]} />
+            </View>
           </Animated.View>
           <Animated.View
             {...this.panResponderTopRight.panHandlers}
             style={[this.state.topRight.getLayout(), s(this.props).handler]}
           >
-            <View style={[s(this.props).handlerI]} />
+            <View
+              style={{
+                height: 60,
+                width: 60,
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <View style={[s(this.props).handlerI]} />
+            </View>
           </Animated.View>
           <Animated.View
             {...this.panResponderBottomLeft.panHandlers}
             style={[this.state.bottomLeft.getLayout(), s(this.props).handler]}
           >
-            <View style={[s(this.props).handlerI]} />
+            <View
+              style={{
+                height: 60,
+                width: 60,
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <View style={[s(this.props).handlerI]} />
+            </View>
           </Animated.View>
           <Animated.View
             {...this.panResponderBottomRight.panHandlers}
             style={[this.state.bottomRight.getLayout(), s(this.props).handler]}
           >
-            <View style={[s(this.props).handlerI]} />
+            <View
+              style={{
+                height: 60,
+                width: 60,
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <View style={[s(this.props).handlerI]} />
+            </View>
           </Animated.View>
         </View>
       </View>
