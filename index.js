@@ -300,9 +300,9 @@ class CustomCrop extends Component {
 
 const s = (props) => ({
   handlerI: {
-    borderRadius: 40,
-    height: 20,
-    width: 20,
+    borderRadius: 50,
+    height: 25,
+    width: 25,
     margin: 100,
     backgroundColor: props.handlerColor || "blue",
   },
